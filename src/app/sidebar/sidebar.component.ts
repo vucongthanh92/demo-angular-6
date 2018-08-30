@@ -15,7 +15,6 @@ export class SidebarComponent implements OnInit {
       (_: NavigationEnd) => {
         if (_.url !== undefined) {
           this.currentUrl = _.url;
-          console.log(this.currentUrl);
         }
       }
     );
